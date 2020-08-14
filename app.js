@@ -25,7 +25,7 @@ const data = [
     image: 'https://randomuser.me/api/portraits/men/83.jpg'
   }
 ]
-
+const profiles = profileIterator(data);
 // Profile Iterator
 function profileIterator(profiles) {
     let nextIndex = 0;
